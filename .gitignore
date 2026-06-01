@@ -1,0 +1,34 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.manifest
+*.spec
+*.log
+*.pot
+
+# ── Virtual environments ─────────────────────────────────
+venv/
+.venv/
+env/
+.env
+
+# ── IDE / Editor ──────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# ── OS generated ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── SoloSweep specific ───────────────────────────────────
+scan_report.md
+SoloSweep.exe
