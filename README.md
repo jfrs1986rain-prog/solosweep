@@ -4,7 +4,7 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
   [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/YOUR_USERNAME/solosweep)](https://github.com/YOUR_USERNAME/solosweep/releases)
+  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/jfrs1986rain-prog/solosweep)](https://github.com/jfrs1986rain-prog/solosweep/releases)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 </div>
 
@@ -22,7 +22,7 @@ It runs on your machine, never uploads your code, and uses AI (Google Gemini) to
 ## ⚡ Quick Start (2 minutes)
 
 ### 1. Download the binary
-👉 [**Download SoloSweep.exe (Windows)**](https://github.com/YOUR_USERNAME/solosweep/releases/latest)
+👉 [**Download SoloSweep.exe (Windows)**](https://github.com/jfrs1986rain-prog/solosweep/releases/latest)
 
 macOS / Linux users: run from source (see below).
 
@@ -34,15 +34,3 @@ Go to [Google AI Studio](https://aistudio.google.com/), click **Get API key**, a
 **Windows (PowerShell):**
 ```powershell
 $env:GEMINI_API_KEY="your-key-here"
-
-
-macOS / Linux:
-export GEMINI_API_KEY="your-key-here"
-
-
-4. Run SoloSweep
-solosweep /path/to/your/project
-That’s it. You’ll see a summary in your terminal and a full scan_report.md with AI‑generated fixes.
-
-💡 Offline mode: use --no-ai to skip AI fixes and run without an API key.
-
